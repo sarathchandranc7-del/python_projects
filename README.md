@@ -7,15 +7,15 @@ This assignment focuses on fundamental Python data structures, specifically **St
 This assignment focuses on the basic Python data structures **Lists, Dictionaries, and Sets**, along with **conditional statements**. I practiced creating, accessing, and modifying lists using methods like `append()`, `insert()`, `remove()`, `pop()`, `extend()`, and `sort()`. I also practiced list indexing, slicing, dictionaries with key-value pairs, and set operations such as union and intersection.
 
 The assignment also includes a simple **performance category program** using `if`, `elif`, and `else`. It takes a score from the user and displays whether the performance is Above Average, Average, or Below Average. This assignment helped me improve my understanding of Python basics and build a foundation for further learning in **Data Analytics**.
-# Python Assignment 3 — While Loop, For Loop & Functions
+## While Loop, For Loop & Functions
 
 This assignment focuses on practicing **while loops, for loops, control statements, and functions** in Python. The exercises are designed around simple real-world programming problems to strengthen logical thinking, iteration, conditional statements, user input, and reusable code.
 
-## 1. While Loop & Control Statements — Number Guessing Game
+### 1. While Loop & Control Statements — Number Guessing Game
 
 This exercise focuses on using a **while loop** along with control statements such as `if`, `elif`, `else`, `break`, and `continue`. A random number is generated between 1 and 10, and the user is given a limited number of attempts to guess it. The program provides feedback for guesses that are too high, too low, or outside the valid range.
 
-### Concepts Covered
+#### Concepts Covered
 
 * `while` loop
 * `if`, `elif`, `else`
@@ -28,11 +28,11 @@ This exercise focuses on using a **while loop** along with control statements su
 
 ---
 
-## 2. For Loop — Multiplication Table Generator
+### 2. For Loop — Multiplication Table Generator
 
 This exercise focuses on using a **for loop** and the `range()` function to generate a multiplication table. The user provides a number, and the program calculates and displays its multiplication table from 1 to 10.
 
-### Concepts Covered
+#### Concepts Covered
 
 * `for` loop
 * `range()`
@@ -43,11 +43,11 @@ This exercise focuses on using a **for loop** and the `range()` function to gene
 
 ---
 
-## 3. Functions — BMI Calculator
+### 3. Functions — BMI Calculator
 
 This exercise focuses on creating and using a **Python function**. A `calculate_bmi(weight, height)` function is used to calculate Body Mass Index using the given weight and height. The function returns the calculated BMI, which is then displayed to the user.
 
-### Concepts Covered
+#### Concepts Covered
 
 * Function definition using `def`
 * Parameters
@@ -60,7 +60,7 @@ This exercise focuses on creating and using a **Python function**. A `calculate_
 
 ---
 
-## Key Learning Outcomes
+### Key Learning Outcomes
 
 After completing this assignment, I practiced:
 
