@@ -7,7 +7,7 @@ This assignment focuses on fundamental Python data structures, specifically **St
 This assignment focuses on the basic Python data structures **Lists, Dictionaries, and Sets**, along with **conditional statements**. I practiced creating, accessing, and modifying lists using methods like `append()`, `insert()`, `remove()`, `pop()`, `extend()`, and `sort()`. I also practiced list indexing, slicing, dictionaries with key-value pairs, and set operations such as union and intersection.
 
 The assignment also includes a simple **performance category program** using `if`, `elif`, and `else`. It takes a score from the user and displays whether the performance is Above Average, Average, or Below Average. This assignment helped me improve my understanding of Python basics and build a foundation for further learning in **Data Analytics**.
-## While Loop, For Loop & Functions
+## 3.While Loop, For Loop & Functions
 
 This assignment focuses on practicing **while loops, for loops, control statements, and functions** in Python. The exercises are designed around simple real-world programming problems to strengthen logical thinking, iteration, conditional statements, user input, and reusable code.
 
@@ -75,3 +75,51 @@ After completing this assignment, I practiced:
 * Performing calculations and formatting numerical output
 
 This assignment is part of my **Python learning journey for Data Analytics**, where I am building a strong foundation in Python programming and problem-solving.
+
+# 4.📊 Survey Feedback Analyzer
+
+A Python project that analyzes customer survey feedback using core Python fundamentals.
+
+## 🎯 Concepts Used
+
+* Dictionaries & Lists
+* `for` loops & `if` conditions
+* Functions
+* User input
+* String methods: `.replace()`, `.split()`, `.join()`, `.lower()`
+* Sets
+* `sum()` & `len()`
+* `zip()` & `sorted()`
+
+  
+## 🎯 Objectives
+
+  The project demonstrates how to:
+
+* Store structured survey data using dictionaries and lists
+* Add new feedback entries using user input
+* Clean text data using string methods
+* Create and use user-defined functions
+* Count specific words across feedback
+* Calculate the average rating
+* Find the longest feedback comment
+* Identify unique words using sets
+* Sort feedback based on ratings
+
+## 🔄 What the Project Does
+
+* Stores survey feedback and ratings
+* Adds new feedback through user input
+* Cleans feedback text
+* Counts words like **good**, **poor**, and **excellent**
+* Calculates the average rating
+* Finds the longest feedback
+* Identifies unique words
+* Sorts feedback by rating
+
+## 🧠 Key Learning
+
+This project applies Python fundamentals to a practical **data cleaning and analysis** problem, building a foundation for **NumPy, Pandas, EDA, and data visualization**.
+
+**Skills:** Python Fundamentals | Data Cleaning | String Manipulation | Data Analysis
+
