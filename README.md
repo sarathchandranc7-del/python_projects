@@ -15,7 +15,7 @@ Each section below is one assignment or project. Every section lists what was pr
 ---
 
 ## 1. Strings and Tuples
-📓 **Notebook:** [`Data_Structures-Strings_&_Tuples.ipynb`](./Data_Structures-Strings_&_Tuples.ipynb)
+📓 **Notebook:** [`Data_Structures-Strings_&_Tuples.ipynb`](./Data_Structures-Strings_&_Tuples)
 This assignment covers two fundamental Python sequence types: **strings** and **tuples**. It builds a foundation for accessing and manipulating sequence elements.
 
 ### Concepts Covered
