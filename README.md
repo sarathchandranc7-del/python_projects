@@ -1,88 +1,87 @@
-# Python Fundamentals
-## 1.Strings and Tuples
+# 📊 Data Analytics Learning Journey
 
-This assignment focuses on fundamental Python data structures, specifically **Strings and Tuples**. The Strings section covers string concatenation, indexing, slicing, and common string methods such as uppercase, lowercase, capitalize, count, and replace. The Tuples section covers tuple creation, concatenation, repetition, indexing, and slicing. The assignment is designed to build a strong foundation in working with sequences and accessing and manipulating their elements.
+My hands-on practice repository for building job-ready **data analytics** skills, starting with Python fundamentals and moving through NumPy, Pandas, SQL, Advanced Excel & DAX, and Power BI.
 
-## 2.Lists, Dictionaries, and Sets
-This assignment focuses on the basic Python data structures **Lists, Dictionaries, and Sets**, along with **conditional statements**. I practiced creating, accessing, and modifying lists using methods like `append()`, `insert()`, `remove()`, `pop()`, `extend()`, and `sort()`. I also practiced list indexing, slicing, dictionaries with key-value pairs, and set operations such as union and intersection.
+Each section below is one assignment or project. Every section lists what was practiced and what it builds toward.
 
-The assignment also includes a simple **performance category program** using `if`, `elif`, and `else`. It takes a score from the user and displays whether the performance is Above Average, Average, or Below Average. This assignment helped me improve my understanding of Python basics and build a foundation for further learning in **Data Analytics**.
-## 3.While Loop, For Loop & Functions
+## 📑 Table of Contents
 
-This assignment focuses on practicing **while loops, for loops, control statements, and functions** in Python. The exercises are designed around simple real-world programming problems to strengthen logical thinking, iteration, conditional statements, user input, and reusable code.
-
-### 1. While Loop & Control Statements — Number Guessing Game
-
-This exercise focuses on using a **while loop** along with control statements such as `if`, `elif`, `else`, `break`, and `continue`. A random number is generated between 1 and 10, and the user is given a limited number of attempts to guess it. The program provides feedback for guesses that are too high, too low, or outside the valid range.
-
-#### Concepts Covered
-
-* `while` loop
-* `if`, `elif`, `else`
-* `break`
-* `continue`
-* `while...else`
-* `random.randint()`
-* User input
-* Counters and conditions
+1. [Strings and Tuples](#1-strings-and-tuples)
+2. [Lists, Dictionaries, and Sets](#2-lists-dictionaries-and-sets)
+3. [While Loop, For Loop & Functions](#3-while-loop-for-loop--functions)
+4. [Survey Feedback Analyzer](#4-survey-feedback-analyzer)
+5. [Data Analysis using NumPy and Pandas](#5-data-analysis-using-numpy-and-pandas)
 
 ---
 
-### 2. For Loop — Multiplication Table Generator
+## 1. Strings and Tuples
 
-This exercise focuses on using a **for loop** and the `range()` function to generate a multiplication table. The user provides a number, and the program calculates and displays its multiplication table from 1 to 10.
+This assignment covers two fundamental Python sequence types: **strings** and **tuples**. It builds a foundation for accessing and manipulating sequence elements.
 
-#### Concepts Covered
+### Concepts Covered
 
-* `for` loop
-* `range()`
-* Iteration
-* Arithmetic operations
-* User input
-* Output formatting
+* **Strings:** concatenation, indexing, slicing
+* **String methods:** `upper()`, `lower()`, `capitalize()`, `count()`, `replace()`
+* **Tuples:** creation, concatenation, repetition, indexing, slicing
 
 ---
 
-### 3. Functions — BMI Calculator
+## 2. Lists, Dictionaries, and Sets
 
-This exercise focuses on creating and using a **Python function**. A `calculate_bmi(weight, height)` function is used to calculate Body Mass Index using the given weight and height. The function returns the calculated BMI, which is then displayed to the user.
+This assignment covers the core Python collections along with **conditional statements**.
 
-#### Concepts Covered
+### Concepts Covered
 
-* Function definition using `def`
-* Parameters
-* Arguments
-* Function calling
-* `return` statement
-* `float()`
-* Arithmetic operations
-* `round()`
+* **Lists:** creating, accessing, and modifying with `append()`, `insert()`, `remove()`, `pop()`, `extend()`, `sort()`
+* **List indexing and slicing**
+* **Dictionaries:** key-value pairs
+* **Sets:** union and intersection
+* **Conditionals:** `if`, `elif`, `else`
+
+### Mini Program: Performance Category
+
+Takes a score from the user and reports whether performance is **Above Average**, **Average**, or **Below Average**.
 
 ---
 
-### Key Learning Outcomes
+## 3. While Loop, For Loop & Functions
 
-After completing this assignment, I practiced:
+Practice with **loops, control statements, and functions** through simple real-world problems, focused on logical thinking, iteration, user input, and reusable code.
 
-* Using `while` loops for condition-based repetition
-* Using `for` loops for sequence-based iteration
-* Understanding `break`, `continue`, and `else`
-* Working with the `random` module
-* Taking and converting user input
-* Creating reusable functions
-* Passing values through function parameters
-* Returning values from functions
-* Performing calculations and formatting numerical output
+### 3.1 While Loop & Control Statements: Number Guessing Game
 
-This assignment is part of my **Python learning journey for Data Analytics**, where I am building a strong foundation in Python programming and problem-solving.
+A random number between 1 and 10 is generated and the user gets a limited number of attempts. The program gives feedback for guesses that are too high, too low, or outside the valid range.
 
-# 4.📊 Survey Feedback Analyzer
+**Concepts:** `while` loop, `if` / `elif` / `else`, `break`, `continue`, `while...else`, `random.randint()`, user input, counters and conditions
+
+### 3.2 For Loop: Multiplication Table Generator
+
+The user enters a number and the program prints its multiplication table from 1 to 10.
+
+**Concepts:** `for` loop, `range()`, iteration, arithmetic operations, user input, output formatting
+
+### 3.3 Functions: BMI Calculator
+
+A `calculate_bmi(weight, height)` function computes Body Mass Index and returns the result for display.
+
+**Concepts:** `def`, parameters and arguments, function calling, `return`, `float()`, `round()`
+
+### Key Learning
+
+* `while` loops for condition-based repetition and `for` loops for sequence-based iteration
+* How `break`, `continue`, and `else` change loop flow
+* Writing reusable functions that take parameters and return values
+* Converting user input and formatting numeric output
+
+---
+
+## 4. Survey Feedback Analyzer
 
 A Python project that analyzes customer survey feedback using core Python fundamentals.
 
-## 🎯 Concepts Used
+### 🎯 Concepts Used
 
-* Dictionaries & Lists
+* Dictionaries & lists
 * `for` loops & `if` conditions
 * Functions
 * User input
@@ -91,10 +90,7 @@ A Python project that analyzes customer survey feedback using core Python fundam
 * `sum()` & `len()`
 * `zip()` & `sorted()`
 
-  
-## 🎯 Objectives
-
-  The project demonstrates how to:
+### 🎯 Objectives
 
 * Store structured survey data using dictionaries and lists
 * Add new feedback entries using user input
@@ -106,7 +102,7 @@ A Python project that analyzes customer survey feedback using core Python fundam
 * Identify unique words using sets
 * Sort feedback based on ratings
 
-## 🔄 What the Project Does
+### 🔄 What the Project Does
 
 * Stores survey feedback and ratings
 * Adds new feedback through user input
@@ -117,9 +113,93 @@ A Python project that analyzes customer survey feedback using core Python fundam
 * Identifies unique words
 * Sorts feedback by rating
 
-## 🧠 Key Learning
+### 🧠 Key Learning
 
 This project applies Python fundamentals to a practical **data cleaning and analysis** problem, building a foundation for **NumPy, Pandas, EDA, and data visualization**.
 
 **Skills:** Python Fundamentals | Data Cleaning | String Manipulation | Data Analysis
 
+---
+
+## 5. Data Analysis using NumPy and Pandas
+
+A hands-on notebook that moves from core Python into the two libraries every data analyst uses daily: **NumPy** for numerical arrays and **Pandas** for tabular data.
+
+📓 **Notebook:** [`Data_Analysis_using_NumPy_and_Pandas.ipynb`](./Data_Analysis_using_NumPy_and_Pandas.ipynb)
+
+### 🎯 Concepts Used
+
+* NumPy 1D and 2D arrays
+* Array properties: `.shape`, `.dtype`, `.size`
+* Vectorized arithmetic and aggregation: `np.max()`, `np.min()`, `np.mean()`
+* Array indexing and slicing
+* Pandas `Series` with custom indexes
+* Label-based vs position-based access: `.loc[]` and `.iloc[]`
+* Boolean filtering
+* Pandas `DataFrame` creation and exploration
+* `groupby()`, `value_counts()`, `unique()`
+* `apply()` with user-defined functions
+* Adding, updating, and dropping rows and columns
+
+### 📂 Notebook Structure
+
+#### NumPy Array Operations
+
+| Step | What I Practiced |
+|------|------------------|
+| Create a 1D array | Weekly temperature readings stored with `np.array()` |
+| Inspect properties | `shape`, `dtype`, `size` |
+| Array operations | Vectorized temperature conversion, plus max, min, and mean |
+| Slicing and indexing | `[:3]`, `[5:]`, `[3:6]` |
+| Create a 2D array | Two weeks of temperature data as a 2 × 7 matrix |
+| Inspect and slice 2D | Row and column access such as `temperatures[0, -2:]` |
+
+#### Pandas Series
+
+| Step | What I Practiced |
+|------|------------------|
+| Create a Series | Marks indexed by rank labels |
+| Indexing and slicing | `.iloc[]` (by position), `.loc[]` (by label), boolean filter `marks > 90` |
+| Manipulating | Updating a value, `drop()`, and element-wise math (marks → CGPA) |
+
+#### Pandas DataFrame
+
+A 10-row **retail transactions** dataset with `TransactionID`, `ProductCategory`, `Region`, and `Amount`.
+
+| Step | What I Practiced |
+|------|------------------|
+| Create a DataFrame | Building a DataFrame from a dictionary of lists |
+| Data exploration | `info()`, `head()`, `tail()`, `shape`, `columns`, `dtypes` |
+| Selecting data | Column subsets, `iloc` row slicing, multi-condition filtering with `&` |
+| Summarizing | `value_counts()`, `unique()`, `groupby("Region")["Amount"].mean()` |
+| Manipulating | Conditional update with `.loc[]`, new column via `apply()`, `drop()` on rows (`axis=0`) and columns (`axis=1`) |
+
+### 🔄 What the Notebook Does
+
+* Stores and inspects numerical data using NumPy arrays
+* Applies calculations to a whole array at once without loops
+* Slices 1D and 2D arrays to extract specific readings
+* Builds labeled Series and filters them with conditions
+* Builds a structured transactions DataFrame from a dictionary
+* Filters transactions by region and amount
+* Calculates average sales amount per region
+* Creates a derived column and removes unwanted rows and columns
+
+### 🧠 Key Learning
+
+* **NumPy** is built for fast, vectorized math on uniform numeric data, so a single expression replaces a loop.
+* **Pandas** adds labels and mixed column types, which makes it the right tool for real-world business data.
+* `.loc[]` selects by label and `.iloc[]` selects by position. Mixing them up is one of the most common beginner bugs.
+* Combining filters needs `&` / `|` with parentheses around each condition, not `and` / `or`.
+* `groupby()` is the Pandas equivalent of SQL's `GROUP BY` and is the foundation of most analysis work.
+* `drop()` returns a new object unless `inplace=True` is used.
+
+**Skills:** NumPy | Pandas | Data Exploration | Filtering & Grouping | Data Manipulation
+
+---
+
+
+
+## 🛠️ Tech Stack
+
+Python | NumPy | Pandas | Jupyter Notebook
