@@ -27,7 +27,7 @@ This assignment covers two fundamental Python sequence types: **strings** and **
 ---
 
 ## 2. Lists, Dictionaries, and Sets
-
+📓 **Notebook:** [`Data_Structures-List,Dictionary,Set_&_Conditional_Statements`](./Data_Structures-List,Dictionary,Set_&_Conditional_Statements.ipynb)
 This assignment covers the core Python collections along with **conditional statements**.
 
 ### Concepts Covered
@@ -45,7 +45,7 @@ Takes a score from the user and reports whether performance is **Above Average**
 ---
 
 ## 3. While Loop, For Loop & Functions
-
+📓 **Notebook:** [`While_Loop,For_loop_and_Functions`](./While_Loop,For_loop_and_Functions.ipynb)
 Practice with **loops, control statements, and functions** through simple real-world problems, focused on logical thinking, iteration, user input, and reusable code.
 
 ### 3.1 While Loop & Control Statements: Number Guessing Game
@@ -76,7 +76,7 @@ A `calculate_bmi(weight, height)` function computes Body Mass Index and returns 
 ---
 
 ## 4. Survey Feedback Analyzer
-
+📓 **Notebook:** [`Python_Fundamentals-Survey_Feedback_Analyzer`](./Python_Fundamentals-Survey_Feedback_Analyzer.ipynb)
 A Python project that analyzes customer survey feedback using core Python fundamentals.
 
 ### 🎯 Concepts Used
@@ -122,10 +122,9 @@ This project applies Python fundamentals to a practical **data cleaning and anal
 ---
 
 ## 5. Data Analysis using NumPy and Pandas
-
 A hands-on notebook that moves from core Python into the two libraries every data analyst uses daily: **NumPy** for numerical arrays and **Pandas** for tabular data.
 
-📓 **Notebook:** [`Data_Analysis_using_NumPy_and_Pandas.ipynb`](./Data_Analysis_using_NumPy_and_Pandas.ipynb)
+📓 **Notebook:** [`Data_Analysis_using_NumPy_and_Pandas`](./Data_Analysis_using_NumPy_and_Pandas.ipynb)
 
 ### 🎯 Concepts Used
 
