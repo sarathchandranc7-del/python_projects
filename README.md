@@ -125,7 +125,7 @@ This project applies Python fundamentals to a practical **data cleaning and anal
 ## 5. Data Analysis using NumPy and Pandas
 A hands-on notebook that moves from core Python into the two libraries every data analyst uses daily: **NumPy** for numerical arrays and **Pandas** for tabular data.
 
-📓 **Notebook:** [`Taxi_Data_Visualisation`](./Taxi_Data_Visualisation.ipynb)
+📓 **Notebook:** [`Data_Analysis_using_NumPy_and_Pandas`](./Data_Analysis_using_NumPy_and_Pandas.ipynb)
 
 ### 🎯 Concepts Used
 
