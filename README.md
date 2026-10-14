@@ -198,7 +198,7 @@ A 10-row **retail transactions** dataset with `TransactionID`, `ProductCategory`
 
 ---
 ## 6. 🚕 Taxi Data Analysis & Visualization Using Python
-📓 **Notebook:** [`Data_Analysis_using_NumPy_and_Pandas`](./Data_Analysis_using_NumPy_and_Pandas.ipynb)
+📓 **Notebook:** [`Taxi_Data_Visualisation`](./Taxi_Data_Visualisation.ipynb)
 ## 📌 Project Overview
 
 This project focuses on **data cleaning, exploratory data analysis (EDA), and data visualization** using Python.
