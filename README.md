@@ -11,7 +11,9 @@ Each section below is one assignment or project. Every section lists what was pr
 3. [While Loop, For Loop & Functions](#3-while-loop-for-loop--functions)
 4. [Survey Feedback Analyzer](#4-survey-feedback-analyzer)
 5. [Data Analysis using NumPy and Pandas](#5-data-analysis-using-numpy-and-pandas)
-6. [Taxi Data Analysis & Visualization Using Python](#6-Taxi-Data-Analysis-&-Visualization-Using-Python)
+6. [Taxi Data Analysis & Visualization Using Python](#6-taxi-data-analysis--visualization-using-python)
+
+
 
 ---
 
