@@ -11,6 +11,7 @@ Each section below is one assignment or project. Every section lists what was pr
 3. [While Loop, For Loop & Functions](#3-while-loop-for-loop--functions)
 4. [Survey Feedback Analyzer](#4-survey-feedback-analyzer)
 5. [Data Analysis using NumPy and Pandas](#5-data-analysis-using-numpy-and-pandas)
+6. [Taxi_Data_Visualisation](#6-Taxi-Data-Visualisation)
 
 ---
 
@@ -124,7 +125,7 @@ This project applies Python fundamentals to a practical **data cleaning and anal
 ## 5. Data Analysis using NumPy and Pandas
 A hands-on notebook that moves from core Python into the two libraries every data analyst uses daily: **NumPy** for numerical arrays and **Pandas** for tabular data.
 
-📓 **Notebook:** [`Data_Analysis_using_NumPy_and_Pandas`](./Data_Analysis_using_NumPy_and_Pandas.ipynb)
+📓 **Notebook:** [`Taxi_Data_Visualisation`](./Taxi_Data_Visualisation.ipynb)
 
 ### 🎯 Concepts Used
 
@@ -196,6 +197,160 @@ A 10-row **retail transactions** dataset with `TransactionID`, `ProductCategory`
 **Skills:** NumPy | Pandas | Data Exploration | Filtering & Grouping | Data Manipulation
 
 ---
+## 6. 🚕 Taxi Data Analysis & Visualization Using Python
+📓 **Notebook:** [`Data_Analysis_using_NumPy_and_Pandas`](./Data_Analysis_using_NumPy_and_Pandas.ipynb)
+## 📌 Project Overview
+
+This project focuses on **data cleaning, exploratory data analysis (EDA), and data visualization** using Python.
+
+Using the built-in Taxis dataset from Seaborn, this project explores taxi trip information, including fares, distances, tips, payment methods, pickup boroughs, and other numerical variables.
+
+The objective is to transform raw data into meaningful visualizations that help identify patterns, understand distributions, and explore relationships between variables.
+
+## 🎯 Project Objectives
+
+* Load and explore the Taxis dataset using Python.
+* Identify and handle missing values using appropriate imputation strategies.
+* Prepare data for analysis and visualization.
+* Analyze taxi fares across different pickup boroughs.
+* Explore trip distributions across payment methods.
+* Visualize the relationship between distance and fare.
+* Examine correlations between numerical variables.
+* Compare fare and tip distributions across different categories.
+* Practice using Matplotlib, Pandas plotting, and Seaborn.
+
+## 🛠️ Technologies & Libraries
+
+| Technology       | Purpose                            |
+| ---------------- | ---------------------------------- |
+| Python           | Data analysis and programming      |
+| Pandas           | Data manipulation and cleaning     |
+| Matplotlib       | Creating charts and visualizations |
+| Seaborn          | Statistical data visualization     |
+| NumPy            | Numerical operations               |
+| Jupyter Notebook | Interactive coding and analysis    |
+
+## 📂 Dataset Information
+
+**Dataset:** Taxis Dataset
+
+**Source:** Built-in Seaborn dataset, loaded using `sns.load_dataset("taxis")`.
+
+The dataset contains information about taxi trips, including:
+
+* Pickup and drop-off timestamps
+* Pickup and drop-off locations
+* Trip distance
+* Fare amount
+* Tip amount
+* Tolls
+* Total trip cost
+* Payment method
+* Pickup borough
+
+These attributes allow us to explore trip characteristics, fare distributions, and relationships between different variables.
+
+## 🔍 Project Workflow
+
+### 1. Loading the Dataset
+
+* Imported the required Python libraries.
+* Loaded the Taxis dataset using Seaborn.
+* Inspected the dataset and its dimensions.
+* Checked for duplicate records.
+
+### 2. Handling Missing Values
+
+* Identified missing values in the dataset.
+* Examined missing-value counts across columns.
+* Applied suitable imputation strategies based on column types.
+* Used mode-based imputation for categorical data where appropriate.
+* Addressed missing values in critical columns to maintain data integrity.
+
+### 3. Data Visualization Using Matplotlib and Pandas
+
+#### 📈 Line Chart — Fare Over Time
+
+Visualized fare amounts against pickup timestamps to examine changes in fares over time.
+
+#### 📊 Bar Chart — Total Fare by Pickup Borough
+
+Grouped trips by pickup borough and calculated the total fare for each borough to compare their contributions.
+
+#### 🥧 Pie Chart — Trip Distribution by Payment Method
+
+Displayed the distribution of trips across payment methods, such as credit card and cash.
+
+#### 📉 Histogram — Distance Distribution
+
+Visualized the distribution of trip distances using customizable bins to understand how trip lengths are distributed.
+
+#### 📦 Box Plot — Tip Distribution by Pickup Borough
+
+Compared tip amounts across pickup boroughs to examine differences in distributions and identify potential outliers.
+
+### 4. Data Visualization Using Seaborn
+
+#### 📊 Count Plot — Trips by Pickup Borough
+
+Compared the number of trips recorded for each pickup borough.
+
+#### 🔵 Scatter Plot — Distance vs. Fare
+
+Explored the relationship between trip distance and fare, using pickup borough to distinguish observations.
+
+#### 🔥 Heatmap — Correlation Between Numerical Variables
+
+Visualized correlations between numerical variables, including distance, fare, tip, tolls, and total trip cost.
+
+#### 🔗 Pair Plot — Relationships Between Numerical Variables
+
+Explored pairwise relationships between distance, fare, tip, and total trip cost, with pickup zone used to distinguish categories.
+
+#### 🎻 Violin Plot — Fare Distribution by Payment Method
+
+Compared fare distributions across payment methods to examine their spread, density, and variation.
+
+## 📊 Key Analysis Areas
+
+This project explores the following analytical questions:
+
+* How does the fare vary over time?
+* Which pickup borough contributes the highest total fare?
+* Which payment methods are used for taxi trips?
+* What does the distribution of trip distances look like?
+* How do tip amounts vary across pickup boroughs?
+* How many trips originate from each borough?
+* Is there a relationship between distance and fare?
+* How strongly are fare, distance, tips, tolls, and total cost correlated?
+* How do numerical variables relate to one another?
+* How does fare distribution differ across payment methods?
+
+## 💡 Skills Demonstrated
+
+* Python programming
+* Data cleaning and missing-value handling
+* Exploratory data analysis (EDA)
+* Data aggregation and grouping
+* Statistical visualization
+* Categorical and numerical data analysis
+* Correlation analysis
+* Data interpretation
+* Analytical thinking
+
+## 🏁 Conclusion
+
+This project demonstrates how Python can be used to clean, explore, and visualize real-world-style taxi trip data.
+
+By combining Matplotlib, Pandas, and Seaborn, the analysis examines fare patterns, trip distributions, borough-level comparisons, and relationships between numerical variables.
+
+The project provides practical experience in the data preparation and visualization stages of a typical data analytics workflow.
+
+---
+
+**Project Category:** Data Analytics | Exploratory Data Analysis | Data Visualization
+
+**Tools:** Python | Pandas | NumPy | Matplotlib | Seaborn | Jupyter Notebook
 
 
 
