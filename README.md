@@ -12,13 +12,13 @@ Each section below is one assignment or project. Every section lists what was pr
 4. [Survey Feedback Analyzer](#4-survey-feedback-analyzer)
 5. [Data Analysis using NumPy and Pandas](#5-data-analysis-using-numpy-and-pandas)
 6. [Taxi Data Analysis & Visualization Using Python](#6-taxi-data-analysis--visualization-using-python)
-
-
+7. [Social Media Engagement Analytics](#7-social-media-engagement-analytics)
 
 ---
 
 ## 1. Strings and Tuples
 📓 **Notebook:** [`Data_Structures-Strings_&_Tuples`](./Data_Structures-Strings_&_Tuples.ipynb)
+
 This assignment covers two fundamental Python sequence types: **strings** and **tuples**. It builds a foundation for accessing and manipulating sequence elements.
 
 ### Concepts Covered
@@ -31,6 +31,7 @@ This assignment covers two fundamental Python sequence types: **strings** and **
 
 ## 2. Lists, Dictionaries, and Sets
 📓 **Notebook:** [`Data_Structures-List,Dictionary,Set_&_Conditional_Statements`](./Data_Structures-List,Dictionary,Set_&_Conditional_Statements.ipynb)
+
 This assignment covers the core Python collections along with **conditional statements**.
 
 ### Concepts Covered
@@ -49,6 +50,7 @@ Takes a score from the user and reports whether performance is **Above Average**
 
 ## 3. While Loop, For Loop & Functions
 📓 **Notebook:** [`While_Loop,For_loop_and_Functions`](./While_Loop,For_loop_and_Functions.ipynb)
+
 Practice with **loops, control statements, and functions** through simple real-world problems, focused on logical thinking, iteration, user input, and reusable code.
 
 ### 3.1 While Loop & Control Statements: Number Guessing Game
@@ -80,6 +82,7 @@ A `calculate_bmi(weight, height)` function computes Body Mass Index and returns 
 
 ## 4. Survey Feedback Analyzer
 📓 **Notebook:** [`Python_Fundamentals-Survey_Feedback_Analyzer`](./Python_Fundamentals-Survey_Feedback_Analyzer.ipynb)
+
 A Python project that analyzes customer survey feedback using core Python fundamentals.
 
 ### 🎯 Concepts Used
@@ -199,8 +202,10 @@ A 10-row **retail transactions** dataset with `TransactionID`, `ProductCategory`
 **Skills:** NumPy | Pandas | Data Exploration | Filtering & Grouping | Data Manipulation
 
 ---
+
 ## 6. Taxi Data Analysis & Visualization Using Python
 📓 **Notebook:** [`Taxi_Data_Visualisation`](./Taxi_Data_Visualisation.ipynb)
+
 ## 📌 Project Overview
 
 This project focuses on **data cleaning, exploratory data analysis (EDA), and data visualization** using Python.
@@ -354,7 +359,74 @@ The project provides practical experience in the data preparation and visualizat
 
 **Tools:** Python | Pandas | NumPy | Matplotlib | Seaborn | Jupyter Notebook
 
+---
 
+## 7. Social Media Engagement Analytics
+📓 **Notebook:** [`Social_Media_Engagement_Analytics`](./Social_Media_Engagement_Analytics.ipynb)
+
+## 📌 Project Overview
+
+This project is an end-to-end analysis of social media post performance using Python. It covers data cleaning, feature engineering, exploratory analysis, statistical summaries, visualization, and written insights on content, audience, behaviour, and sentiment.
+
+The dataset has 5,000 posts across 19 columns. After cleaning, 4,910 posts remain.
+
+## 🎯 Project Objectives
+
+* Clean raw engagement data, including type conversion, missing-value imputation, duplicate removal, and validation of impossible values.
+* Standardize categorical labels and create new features such as `hashtag_count` and `engagement_score`.
+* Summarize distributions with mean, median, standard deviation, skewness, kurtosis, and variance.
+* Compare engagement across post types, categories, countries, age groups, verification status, devices, and sentiment.
+* Visualize relationships and trends using Matplotlib, Seaborn, and Plotly.
+* Report findings with the supporting numbers and an honest account of limitations.
+
+## 🔍 Project Workflow
+
+### 1. Data Cleaning
+* Converted `posted_at` to datetime and numeric columns to nullable integers.
+* Filled missing values in age, likes, comments, shares, gender, and sentiment using median and mode.
+* Removed 9 duplicate `post_id` rows, keeping the first occurrence.
+* Dropped 120 rows where comments or shares exceeded impression count, which is not possible.
+* Stripped and lowercased all categorical labels.
+
+### 2. Feature Engineering
+* `hashtag_count`: number of hashtags per post (about 2 per post on average).
+* `engagement_score`: weighted total of likes (0.5), comments (1.0), and shares (1.5). The weights are an assumption and are stated in the notebook.
+* `age_group`: age bins of 18-25, 26-35, 36-50, and 51+.
+
+### 3. Exploratory Analysis
+* Summary statistics for ten numeric columns. Most are symmetric with flat tails. `engagement_rate` is the exception, with strong right skew (7.76) and extreme kurtosis (100.21).
+* Correlation analysis. The strongest relationship is impressions vs engagement rate (-0.49). Likes vs engagement rate is weak positive (0.23).
+* Groupby summaries by post type, sentiment, country, age group, verification status, and device type.
+
+### 4. Visualization
+* **Matplotlib:** scatter (likes vs impressions), daily engagement line, bar (posts by category), histogram (age).
+* **Seaborn:** correlation heatmap, pair plot, bar plot (average likes by category and type), count plot (post type).
+* **Plotly:** daily engagement trend, bubble chart, interactive scatter by sentiment.
+
+## 💡 Key Findings
+
+* **Post type:** engagement is nearly equal across formats, so no format clearly outperforms the others.
+* **Sentiment:** negative posts have the highest engagement rate (0.557 vs 0.511 neutral and 0.506 positive). The gap is small.
+* **Age:** engagement rate is nearly flat across age groups (0.505 to 0.525), with 26-35 slightly highest.
+* **Verified accounts:** slightly lower engagement rate (0.502) than non-verified (0.519). Verified accounts are about 10% of posts.
+* **Device:** mobile has the highest average watch time (4,093 seconds), with tablet and desktop close behind. The differences are small.
+* **Time of day:** cannot be analysed. The `posted_at` column stores dates only.
+
+## ⚠️ Limitations
+
+* Engagement score depends on the chosen weights and is driven by reach. Engagement rate is the fairer comparison across posts.
+* Several group differences are small, so they should be read as directions, not strong effects.
+* Correlation does not show causation.
+
+## 🧠 Key Learning
+
+* Choosing between a raw sum and a rate changes the answer. A sum mostly reflects reach; a rate reflects how well a post converts its audience.
+* Reporting group sizes alongside averages prevents small groups from being overinterpreted.
+* State what the data cannot support (such as time of day) rather than inventing a result.
+
+**Skills:** Python | Pandas | Data Cleaning | Feature Engineering | Statistical Analysis | Matplotlib | Seaborn | Plotly
+
+---
 
 ## 🛠️ Tech Stack
 
